@@ -1,8 +1,7 @@
 *.py[cod]
-secret_keys
 # C extensions
 *.so
-
+./twittersent/secret_keys.py
 # pycharm
 .idea/
 .idea
