@@ -9,7 +9,7 @@ Overview
 
 A python package to analyse the tweets and extract meaning from the data, can be installed with pip.
 
-Installation / Usage
+Installing
 --------------------
 
 To install use pip:
