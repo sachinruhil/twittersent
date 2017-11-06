@@ -19,7 +19,7 @@ To install use pip:
 
 Or clone the repo:
 
-    $ git clone https://github.com/shekhar09/twittersent.git
+    $ git clone https://github.com/Ekchusis/twittersent.git
     $ python setup.py install
     
 
