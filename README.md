@@ -25,7 +25,7 @@ Or clone the repo:
 
 Get the tokens/keys by registering at [Twitter Api](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens) and fill put the values of the following variables in `client.py` file
 
-```
+```python
 ACCESS_TOKEN_KEY      =    ' '
 ACCESS_TOKEN_SECRET   =    ' '
 CONSUMER_KEY          =    ' '
@@ -41,7 +41,7 @@ Example
 -------
 A simple file that takes a list as an input
 
-```
+```python
 from client import TwitterSent
 
 import sys
