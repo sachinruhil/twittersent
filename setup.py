@@ -22,8 +22,8 @@ setup(
     version=__version__,
     description='A python package to analyse the tweets and extract meaning from the data, can be installed with pip.',
     long_description=long_description,
-    url='https://github.com/shekhar09/twittersent',
-    download_url='https://github.com/shekhar09/twittersent/tarball/' + __version__,
+    url='https://github.com/ekchusis/twittersent',
+    download_url='https://github.com/ekchusis/twittersent/tarball/' + __version__,
     license='BSD',
     classifiers=[
       'Development Status :: 3 - Alpha',
@@ -36,7 +36,7 @@ setup(
     packages=find_packages(exclude=['docs', 'tests*']),
     include_package_data=True,
     author='Shekhar Jha',
-    install_requires=['twitter', 'seaborn', 'pandas', 'textblob'],
+    install_requires=['python-twitter', 'seaborn', 'pandas', 'textblob'],
     dependency_links=dependency_links,
     author_email='shekhar09jha@gmail.com'
 )

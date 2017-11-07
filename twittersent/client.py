@@ -12,18 +12,15 @@
 
 import twitter
 import pandas as pd
-import base64
 import re
 from textblob import TextBlob
 import seaborn as sns
 
 
-# Initiate the connection to Twitter Streaming API
-#twitter_stream = TwitterStream(auth=oauth)
-api = twitter.Api(consumer_key = CONSUMER_KEY,
-                  consumer_secret = CONSUMER_SECRET,
-                  access_token_key = ACCESS_TOKEN,
-                  access_token_secret = ACCESS_SECRET)
+api = twitter.Api(consumer_key=None,
+                  consumer_secret=None,
+                  access_token_key=None,
+                  access_token_secret=None)
 
 
 class TwitterSent(object):

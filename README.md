@@ -1,7 +1,7 @@
 Python Package for Twitter's Sentiment Analysis
 ===============================
 
-version number: 0.0.1
+version number: 0.0.2
 author: Shekhar Jha
 
 Overview
@@ -21,15 +21,15 @@ Or clone the repo:
 
     $ git clone https://github.com/ekchusis/twittersent.git
     $ python setup.py install
-    
+
 
 Get the tokens/keys by registering at [Twitter Api](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens) and fill put the values of the following variables in `client.py` file
 
 ```python
-ACCESS_TOKEN_KEY      =    ' '
-ACCESS_TOKEN_SECRET   =    ' '
-CONSUMER_KEY          =    ' '
-CONSUMER_SECRET       =    ' '
+consumer_key = None
+consumer_secret = None
+access_token_key = None
+access_token_secret = None
 ```
 
 Contributing
