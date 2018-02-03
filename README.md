@@ -2,7 +2,8 @@ Python Package for Twitter's Sentiment Analysis
 ===============================
 
 version number: 0.0.2
-author: Shekhar Jha
+author: ekchusis
+email: ekchusis.git@gmail.com
 
 Overview
 --------
